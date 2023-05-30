@@ -1,0 +1,7 @@
+This is the instruction on how to use these scripts to get to desire output: 
+Step 1: load a zipfile of all recordings into the current directory
+Step 2: `get_individual_call.py` - what it does is it transcript each call, get summary, analyze customer questions and improvement feedback for each call, output in a csv file named `transcript_sample.csv`  
+- run `python get_individual_call.py` 
+Step 3: `get_summary.py` - what it does is it load the `transcript_sample.csv` and generate insight across all files. like top 5 customer questions, top 5 improvements for reps. Output in 2 different csvs: concern_output.csv and feedback_output.csv. 
+- run `python get_summary.py` 
+
